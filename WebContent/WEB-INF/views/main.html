@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>プロトタイプ_メイン画面</title>
+<link href="css/main.css" rel="stylesheet" />
+</head>
+<body style="margin-top:0px; margin-right:0px; margin-left:0px; margin-bottom:0px;">
+    <header>
+    <h1 id="bigTitle">掲示板</h1>
+    <div id="userinfo">
+        <div id="username">ログイン中のユーザ スズキタツヒサ</div>
+        <button id="logout" type="submit"><a href="./index.html">ログアウト</a></button>
+    </div>
+    </header>
+
+    <div id="wrapper">
+        <aside class="bookmark">
+            <h3 class="title">ブックマーク一覧</h3>
+                <ul class="category">
+                    <li>野球</li>
+                    <li>動物</li>
+                    <li>バレーボール</li>
+                </ul>
+        </aside>
+        <div class="choice">
+                <div class="talk">
+                    <img src="images/talk.jpg" alt="" width="300" height="300"><br />
+                    <a class="button" id="talk"  href="./talk.html">雑談</a>
+                </div>
+                <div class="question">
+                    <img src="images/question.jpg" alt=""   width="400" height="300"><br />
+                    <a class="button" id="question" href="./question.html">相談</a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

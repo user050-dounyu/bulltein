@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>プロトタイプ_相談ページ</title>
+</head>
+<body>
+    <header>
+        <h1>雑談ページ</h1>
+        <p><a href="./main.html">メイン画面へ</a></p>
+        <p>ステータス：スズキタツヒサ</p>
+        <p><a href="./index.html">ログアウト</a></p>
+    </header>
+
+    <div id="wrapper">
+        <div id="category">
+        <h3>カテゴリ一覧</h3><br />
+            <ul>
+                <li class="parent" onclick="func1(this)">スポーツ
+                    <ul>
+                        <li>野球</li>
+                        <li>サッカー</li>
+                        <li>バレーボール</li>
+                    </ul>
+                </li>
+                <li class="parent" onclick="func1(this)">ご飯
+                    <ul>
+                        <li>肉</li>
+                        <li>魚</li>
+                        <li>ご飯もの</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="bulletin">
+            <ul>
+                <li>スズキタツヒサ ヤクルトの今後 山田哲人やばい 2024-05-15</li>
+                <li>ナガシマカツキ ゴミ捨て場の決戦 映画最高だったね 2024-05-11</li>
+                <li>フジオカユウタ 多摩センターのおいしいごはん 紹介してほしい 2024-05-3</li>
+            </ul>
+        </div>
+
+    </div>
+      <script>
+    function func1(e) {
+      e.classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
