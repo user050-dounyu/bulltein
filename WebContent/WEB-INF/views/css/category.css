@@ -97,6 +97,9 @@ header{
 }
 
 .bulltein{
+    width:60%;
+    flex-grow:1;
     border-width: 1px;
     border-style: solid;
+    border-color: black;
 }
